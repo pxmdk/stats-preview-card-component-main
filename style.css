@@ -112,8 +112,18 @@ body {
     margin: 0 auto;
     font-size: 0.9375rem;
     line-height: 25px;
+    justify-content: center;
   }
-
+  .stats-container {
+    margin: 40px 0 0 0;
+    flex-direction: column;
+  }
+  .stats:nth-child(2) {
+    margin: 24px 0;
+  }
+  .stats:nth-child(3) {
+    margin: 0;
+  }
   .image-container {
     width: 100%;
     min-height: 250px;
