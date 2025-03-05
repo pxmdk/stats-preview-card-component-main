@@ -86,3 +86,34 @@ body {
   background-color: hsl(277, 64%, 61%, 0.6);
   border-radius: 0 8px 8px 0;
 }
+
+@media only screen and (max-width: 1134px) {
+  .container {
+    flex-direction: column;
+    width: 327px;
+    height: 780px;
+    align-items: center;
+  }
+
+  .text-container {
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .text-container h1 {
+    margin: 0 auto;
+    font-size: 1.75rem;
+    line-height: 32px;
+  }
+
+  .image-container {
+    width: 100%;
+    min-height: 250px;
+    order: -1;
+    border-radius: 8px 8px 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
