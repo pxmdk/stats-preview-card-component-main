@@ -102,9 +102,16 @@ body {
   }
 
   .text-container h1 {
-    margin: 0 auto;
+    width: 264px;
+    margin: 40px auto 16px auto;
     font-size: 1.75rem;
     line-height: 32px;
+  }
+  .text-container p {
+    width: 264px;
+    margin: 0 auto;
+    font-size: 0.9375rem;
+    line-height: 25px;
   }
 
   .image-container {
