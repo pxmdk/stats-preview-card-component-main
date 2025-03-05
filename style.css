@@ -133,4 +133,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .image-container::before {
+    border-radius: 8px 8px 0 0;
+  }
 }
